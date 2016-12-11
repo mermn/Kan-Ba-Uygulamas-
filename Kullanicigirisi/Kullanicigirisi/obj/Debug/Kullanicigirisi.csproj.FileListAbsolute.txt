@@ -1,0 +1,10 @@
+c:\users\ali\documents\visual studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\bin\Debug\Kullanicigirisi.exe.config
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\bin\Debug\Kullanicigirisi.exe
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\bin\Debug\Kullanicigirisi.pdb
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.Form1.resources
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.frmMain.resources
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.Properties.Resources.resources
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.csproj.GenerateResource.Cache
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.exe
+C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.pdb
