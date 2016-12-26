@@ -1,0 +1,12 @@
+c:\users\kaan\documents\visual studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\bin\Debug\kanBasiglamaEkrani.exe.config
+C:\Users\kaan\Documents\Visual Studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\bin\Debug\kanBasiglamaEkrani.exe
+C:\Users\kaan\Documents\Visual Studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\bin\Debug\kanBasiglamaEkrani.pdb
+C:\Users\kaan\Documents\Visual Studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\obj\Debug\kanBasiglamaEkrani.csprojResolveAssemblyReference.cache
+C:\Users\kaan\Documents\Visual Studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\obj\Debug\kanBasiglamaEkrani.Form1.resources
+C:\Users\kaan\Documents\Visual Studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\obj\Debug\kanBasiglamaEkrani.Properties.Resources.resources
+C:\Users\kaan\Documents\Visual Studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\obj\Debug\kanBasiglamaEkrani.csproj.GenerateResource.Cache
+C:\Users\kaan\Documents\Visual Studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\obj\Debug\kanBasiglamaEkrani.exe
+C:\Users\kaan\Documents\Visual Studio 2013\Projects\kanBasiglamaEkrani\kanBasiglamaEkrani\obj\Debug\kanBasiglamaEkrani.pdb
+\\Mac\Home\Desktop\Ders\2016-2017 Güz\Yazılım Yapımı\Proje\kanBasiglamaEkrani\kanBasiglamaEkrani\bin\Debug\kanBasiglamaEkrani.exe.config
+\\Mac\Home\Desktop\Ders\2016-2017 Güz\Yazılım Yapımı\Proje\kanBasiglamaEkrani\kanBasiglamaEkrani\obj\Debug\kanBasiglamaEkrani.exe
+\\Mac\Home\Desktop\Ders\2016-2017 Güz\Yazılım Yapımı\Proje\kanBasiglamaEkrani\kanBasiglamaEkrani\obj\Debug\kanBasiglamaEkrani.pdb
