@@ -146,8 +146,8 @@ namespace WindowsFormsApplication1
                 {
                     //Create SqlConnection
                     SqlConnection con = new SqlConnection(cs);
-                    SqlCommand cmd = new SqlCommand("Select * from tbl_user where Tc=@Tc and password=@password", con);
-                    cmd.Parameters.AddWithValue("@Tc", tbTCKimlik.Text);
+                    SqlCommand cmd = new SqlCommand("insert into tbl_uye values (@TC,@Ad,@Tel,@email,@password,@kan)", con);
+                    cmd.Parameters.AddWithValue("@TC", tbTCKimlik.Text);
                     cmd.Parameters.AddWithValue("@Ad", tbAdSoyad.Text);
                     cmd.Parameters.AddWithValue("@email", tbMail.Text);
                     cmd.Parameters.AddWithValue("@password", tbSifre.Text);
@@ -162,13 +162,13 @@ namespace WindowsFormsApplication1
 
                     if (count == 1)
                     {
-                        MessageBox.Show("Giriş Başarılı!");
+                        MessageBox.Show("Giriş Başarısız!");
                         this.Hide();
                         
                     }
                     else
                     {
-                        MessageBox.Show("Giriş Başarısız!");
+                        MessageBox.Show("Giriş Başarılı!");
                     }
                 }
                 catch (Exception ex)
@@ -225,7 +225,7 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("Mailinizi doğrulayınız.");
                 mailDogrula maildogrula = new mailDogrula();
                 maildogrula.Show();
-                this.Hide();
+               // this.Hide();
             }
             else
             {
