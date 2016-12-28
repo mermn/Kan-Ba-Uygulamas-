@@ -158,18 +158,7 @@ namespace WindowsFormsApplication1
                     DataSet ds = new DataSet();
                     adapt.Fill(ds);
                     con.Close();
-                    int count = ds.Tables[0].Rows.Count;
-
-                    if (count == 1)
-                    {
-                        MessageBox.Show("Giriş Başarısız!");
-                        this.Hide();
-                        
-                    }
-                    else
-                    {
-                        MessageBox.Show("Giriş Başarılı!");
-                    }
+                    MessageBox.Show("İşlem Başarılı.");
                 }
                 catch (Exception ex)
                 {
