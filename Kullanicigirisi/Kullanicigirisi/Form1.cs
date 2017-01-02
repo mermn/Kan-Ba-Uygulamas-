@@ -45,8 +45,8 @@ namespace Kullanicigirisi
             {
                 //Create SqlConnection
                 SqlConnection con = new SqlConnection(cs);
-                SqlCommand cmd = new SqlCommand("Select * from tbl_user where Tc=@Tc and password=@password", con);
-                cmd.Parameters.AddWithValue("@Tc", textBox1.Text);
+                SqlCommand cmd = new SqlCommand("Select * from tbl_uye where Tc=@TC and password=@password", con);
+                cmd.Parameters.AddWithValue("@TC", textBox1.Text);
                 cmd.Parameters.AddWithValue("@password", textBox2.Text);
                 con.Open();
                 SqlDataAdapter adapt = new SqlDataAdapter(cmd);
@@ -71,6 +71,19 @@ namespace Kullanicigirisi
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+      
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.Show();
         }
     }
 }

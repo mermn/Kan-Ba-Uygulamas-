@@ -8,3 +8,14 @@ C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigiri
 C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.csproj.GenerateResource.Cache
 C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.exe
 C:\Users\Ali\Documents\Visual Studio 2015\Projects\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.pdb
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\bin\Debug\Kullanicigirisi.exe.config
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.exe
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.pdb
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\bin\Debug\Kullanicigirisi.exe
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\bin\Debug\Kullanicigirisi.pdb
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.Form1.resources
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.frmMain.resources
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.Properties.Resources.resources
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\Kan-Bagis-Uygulamasi--develop\Kullanicigirisi\Kullanicigirisi\obj\Debug\Kullanicigirisi.Form2.resources
