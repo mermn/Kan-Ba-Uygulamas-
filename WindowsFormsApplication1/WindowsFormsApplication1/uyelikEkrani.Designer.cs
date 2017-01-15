@@ -202,6 +202,7 @@
             this.tbSifre.Location = new System.Drawing.Point(207, 218);
             this.tbSifre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbSifre.Name = "tbSifre";
+            this.tbSifre.PasswordChar = '*';
             this.tbSifre.Size = new System.Drawing.Size(242, 26);
             this.tbSifre.TabIndex = 11;
             // 
@@ -220,6 +221,7 @@
             this.tbSifreD.Location = new System.Drawing.Point(207, 258);
             this.tbSifreD.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbSifreD.Name = "tbSifreD";
+            this.tbSifreD.PasswordChar = '*';
             this.tbSifreD.Size = new System.Drawing.Size(242, 26);
             this.tbSifreD.TabIndex = 12;
             // 
@@ -249,6 +251,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "uyelikEkrani";
             this.Text = "Üyelik Ekranı";
+            this.Load += new System.EventHandler(this.uyelikEkrani_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,18 +265,18 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox tbTCKimlik;
-        private System.Windows.Forms.TextBox tbAdSoyad;
-        private System.Windows.Forms.TextBox tbTelNo;
-        private System.Windows.Forms.TextBox tbMail;
         private System.Windows.Forms.TextBox tbMailC;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox tbSifre;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox tbSifreD;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.TextBox tbTCKimlik;
+        public System.Windows.Forms.TextBox tbAdSoyad;
+        public System.Windows.Forms.TextBox tbTelNo;
+        public System.Windows.Forms.TextBox tbMail;
+        public System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.TextBox tbSifre;
     }
 }
 

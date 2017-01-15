@@ -17,6 +17,31 @@ namespace WindowsFormsApplication1
 {
     public partial class uyelikEkrani : Form
     {
+        public string tc
+        {
+            get { return tbTCKimlik.Text; }
+        }
+        public string mail
+        {
+            get { return tbMail.Text; }
+        }
+        public string sifre
+        {
+            get { return tbSifre.Text; }
+        }
+        public string kan
+        {
+            get { return comboBox1.Text; }
+        }
+        public string ad
+        {
+            get { return tbAdSoyad.Text; }
+        }
+        public string tel
+        {
+            get { return tbTelNo.Text; }
+        }
+
         int sayac = 0;
         public uyelikEkrani()
         {
@@ -31,12 +56,12 @@ namespace WindowsFormsApplication1
             comboBox1.Items.Add("AB+ RH -");
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
         }
 
         //TELEFON KONTROL YERİ
-        private bool IsPhoneNumber(string input)
+        public bool IsPhoneNumber(string input)
         {
             string pattern = @"^(0(\d{3}) (\d{3}) (\d{2}) (\d{2}))$";
             Match match = Regex.Match(input, pattern, RegexOptions.IgnoreCase);
@@ -59,7 +84,7 @@ namespace WindowsFormsApplication1
 
         //BUTTONA BASTIKTAN SONRA YAPILICAK İŞLEMLER
         String cs = @"Data Source=yazilim.database.windows.net;Initial Catalog=MyDatabase;Integrated Security=False;User ID=ali;Password=Qwe123qwe;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-        private void button2_Click(object sender, EventArgs e)
+        public void button2_Click(object sender, EventArgs e)
         {
             //SİFRE KONTROL YERİ
             if(tbSifre.Text!=tbSifreD.Text)
@@ -213,6 +238,12 @@ namespace WindowsFormsApplication1
 
                 MessageBox.Show("Mailinizi doğrulayınız.");
                 mailDogrula maildogrula = new mailDogrula();
+                maildogrula.tc = tc;
+                maildogrula.ad = ad;
+                maildogrula.mail = mail;
+                maildogrula.sifre = sifre;
+                maildogrula.tel = tel;
+                maildogrula.kan = kan;
                 maildogrula.Show();
                // this.Hide();
             }
@@ -222,9 +253,14 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void uyelikEkrani_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
